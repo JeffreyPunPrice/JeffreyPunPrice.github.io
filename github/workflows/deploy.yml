@@ -3,8 +3,10 @@ name: Deploy MkDocs Blog
 on:
   push:
     branches:
-      - main # Triggers the build every time you push code to main
-  workflow_dispatch: # Enables the manual "Run workflow" button in GitHub
+      - main # or master
+  workflow_dispatch:
+permissions:
+  contents: write # <-- THIS IS CRITICAL
 
 jobs:
   build-and-deploy:
