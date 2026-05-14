@@ -1,15 +1,19 @@
-# Login (uat)
+---
+title: loginAndGetToken (Function)
+---
+
+# Login
 
 | POST | `https://uat.price.com.hk/login.php` |
 | ---- | ------------------------------------ |
 
-| Header          | value                                                                                 |
-| --------------- | ------------------------------------------------------------------------------------- |
-| Accept          | text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8 |
-| Accept-Language | en-US,en;q=0.5                                                                        |
-| Content-Type    | application/x-www-form-urlencoded                                                     |
-| User-Agent      | Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0  |
-| Connection      | keep-alive                                                                            |
+| Header          | value                                                                                   |
+| --------------- | --------------------------------------------------------------------------------------- |
+| Accept          | text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,\*/\*;q=0.8 |
+| Accept-Language | en-US,en;q=0.5                                                                          |
+| Content-Type    | application/x-www-form-urlencoded                                                       |
+| User-Agent      | Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0    |
+| Connection      | keep-alive                                                                              |
 
 | form-data   | value                                                         |
 | ----------- | ------------------------------------------------------------- |
@@ -32,6 +36,7 @@
 
 In `authentoication.ts`
 Extract cookie only `nwtc` `ui_site` `ui_uname` `ui_uid` `price_ui_cookie` `ui_authcode` `ui_auth_hash`
+
 # GenerateToken
 
 | POST | `https://apisuat.price.com.hk/authentication/v1/published/member/token/legacy` |
@@ -39,10 +44,12 @@ Extract cookie only `nwtc` `ui_site` `ui_uname` `ui_uid` `price_ui_cookie` `ui_a
 
 | Header       |                                                            |
 | ------------ | ---------------------------------------------------------- |
-| Cookie       | *Extracted cookie with nwtc, ui_site,ui_uname, ui_uid ...* |
-| Accept       | */*                                                        |
+| Cookie       | _Extracted cookie with nwtc, ui_site,ui_uname, ui_uid ..._ |
+| Accept       | _/_                                                        |
 | Content-Type | application/json                                           |
+
 Body (raw)
+
 ```
 {
     "device_description": "Automation Positive",
@@ -72,7 +79,8 @@ Body (raw)
 ```
 
 ## Return
+
 | key       |                                                            |
 | --------- | ---------------------------------------------------------- |
 | tokenData | data from response#2                                       |
-| cookies   | *Extracted cookie with nwtc, ui_site,ui_uname, ui_uid ...* |
+| cookies   | _Extracted cookie with nwtc, ui_site,ui_uname, ui_uid ..._ |

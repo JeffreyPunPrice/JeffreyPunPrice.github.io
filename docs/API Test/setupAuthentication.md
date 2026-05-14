@@ -1,3 +1,6 @@
+---
+title: setupAuthentication (Function)
+---
 
 Get token data and cookies from [loginAndGetToken](loginAndGetToken)
 

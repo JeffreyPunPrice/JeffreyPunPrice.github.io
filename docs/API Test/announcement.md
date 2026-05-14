@@ -1,16 +1,20 @@
+---
+title: Announcement
+---
 
 # prerequisite action
 
-Login through `setupAuthentication` 
+Login through `setupAuthentication`
 
 ## Postman setup
+
 JWT is needed. set jwt token to environment
 
 ```javascript
 // at post-response section of generate token request
 var jsonData = pm.response.json();
-var jwtToken = jsonData.data[0].access_token; 
-pm.environment.set("jwt_token",jwtToken);
+var jwtToken = jsonData.data[0].access_token;
+pm.environment.set('jwt_token', jwtToken);
 ```
 
 Then use `Bearer Token` in Authorization and take `{{jwt_token}}` from the environment
