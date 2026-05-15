@@ -21,7 +21,8 @@ theme:
       primary: deep purple
 
 plugins:
-  - privacy:
-    links_attr_map:
-      target: _blank
-      rel: noopener
+  - search
+  - tags
+
+search:
+  exclude: true
