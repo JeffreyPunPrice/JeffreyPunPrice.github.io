@@ -4,14 +4,16 @@ title: Home Page
 ## Useful portals
 
 
-| Links                                                                                                                                                                          |     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
-| [Swagger](https://apitools-demo.price-hk.com:30443/)                                                                                                                           |     |
-| [Gitlab - Projects](https://git.price-hk.com/)                                                                                                                                 |     |
-| [Dashboard](https://engdash.price-hk.com/development)                                                                                                                          |     |
-| [Trello](https://trello.com/b/36RkjKbx/price-qa)                                                                                                                               |     |
-| [Jira](https://pricehk.atlassian.net/jira/for-you)                                                                                                                             |     |
-| [Jira - Release]([https://pricehk.atlassian.net/jira/for-you](https://pricehk.atlassian.net/projects/PDV?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page)) |     |
+| Links                                                                                                                            |     |
+| -------------------------------------------------------------------------------------------------------------------------------- | --- |
+| [Swagger](https://apitools-demo.price-hk.com:30443/)                                                                             |     |
+| [Gitlab - Projects](https://git.price-hk.com/)                                                                                   |     |
+| [Dashboard](https://engdash.price-hk.com/development)                                                                            |     |
+| [Trello](https://trello.com/b/36RkjKbx/price-qa)                                                                                 |     |
+| [Jira](https://pricehk.atlassian.net/jira/for-you)                                                                               |     |
+| [Jira - Release](https://pricehk.atlassian.net/projects/PDV?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page) |     |
+|                                                                                                                                  |     |
+|                                                                                                                                  |     |
 
 ### Spreadsheets
 
