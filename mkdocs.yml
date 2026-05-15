@@ -25,6 +25,3 @@ plugins:
     links_attr_map:
       target: _blank
       rel: noopener
-
-search:
-  exclude: true
