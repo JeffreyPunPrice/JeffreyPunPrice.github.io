@@ -24,7 +24,7 @@ plugins:
   - search
   - tags
   - encryptcontent:
-    global_password: 'price12345'
+      global_password: 'price12345'
 
 search:
   exclude: true
