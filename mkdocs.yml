@@ -26,6 +26,9 @@ plugins:
   - tags
   - encryptcontent:
       global_password: 'price12345'
+      title_prefix: ''
+      title_suffix: ''
+      tag_encrypted_page: false
 
 search:
   exclude: true
