@@ -5,6 +5,7 @@ theme:
     - navigation.tabs # Adds top-level directories (API Test, Web Test) to a top bar
     - navigation.sections # Groups your sidebar items clearly into visible sections
     - navigation.expand # Forces the sidebar folders to stay expanded by default
+    - content.code.copy
   palette: # (1)!
     # Palette toggle for light mode
     - scheme: default
