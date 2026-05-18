@@ -4,8 +4,9 @@ title: loginAndGetToken (Function)
 
 # Login
 
-| POST | `https://uat.price.com.hk/login.php` |
-| ---- | ------------------------------------ |
+| Method | URL                                  |
+| ------ | ------------------------------------ |
+| POST   | `https://uat.price.com.hk/login.php` |
 
 | Header          | value                                                                                   |
 | --------------- | --------------------------------------------------------------------------------------- |
@@ -39,8 +40,10 @@ Extract cookie only `nwtc` `ui_site` `ui_uname` `ui_uid` `price_ui_cookie` `ui_a
 
 # GenerateToken
 
-| POST | `https://apisuat.price.com.hk/authentication/v1/published/member/token/legacy` |
-| ---- | ------------------------------------------------------------------------------ |
+| Method | URL                                                                            |
+| ------ | ------------------------------------------------------------------------------ |
+| POST   | `https://apisuat.price.com.hk/authentication/v1/published/member/token/legacy` |
+
 
 | Header       |                                                            |
 | ------------ | ---------------------------------------------------------- |
