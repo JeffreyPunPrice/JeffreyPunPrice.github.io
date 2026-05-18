@@ -1,3 +1,3 @@
 # API Test
 
-[Link to API Automation Repo](https://git.price-hk.com/price-qa/hk-apiauto)
+[Link to API Automation Repo](https://git.price-hk.com/price-qa/hk-apiauto){target="_blank"}
