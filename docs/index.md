@@ -30,3 +30,10 @@ title: Home Page
 | [Test Case Change Record](https://docs.google.com/spreadsheets/d/14TbCQId_KuRNHWgIKfo41y8k9H75CcYBVxonROeykt8/edit?usp=drive_web&ouid=100861903494363609671) | Zephyr scale change records            |
 | [Jira Editor](https://docs.google.com/spreadsheets/d/1x8DW30Qicwnkffer6uXEyguxEOUIs0dZeuVcdJEgD0o/edit?usp=drive_web&ouid=100861903494363609671)             | Default source for Zephyr Scale Editor |
 | [Product List](https://docs.google.com/spreadsheets/d/1Bm2Vlnu0xJvgdLqaVjTJPZ4Kva9wdhWvziaeBgKI0u4/edit?gid=0#gid=0)                                         | Product List                           |
+|                                                                                                                                                              |                                        |
+
+### Tools
+
+| Tools                               | Remark |
+| ----------------------------------- | ------ |
+| [Temp Mail](https://temp-mail.org/) |        |
