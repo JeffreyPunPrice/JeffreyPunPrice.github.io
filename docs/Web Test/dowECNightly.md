@@ -113,7 +113,7 @@ use `MAX_DAILY_VERIFY_PROMO_CODE`
 | HIGHAMOUNTWRONGMERCHANTINACTIVEABSOLUTE |
 | HIGHAMOUNTWRONGMERCHANTFUTUREABSOLUTE   |
 
-### wrongProductCodes
+### wrongProductCodes (18)
 
 use `MAX_DAILY_VERIFY_PROMO_CODE`
 
@@ -138,14 +138,14 @@ use `MAX_DAILY_VERIFY_PROMO_CODE`
 | WRONGPRODUCTMEMBERLIMITABSOLUTE |
 | WRONGPRODUCTMEMBERLIMITPERCENT  |
 
-### happyHighAmountCodes
+### happyHighAmountCodes (2)
 
 | Coupon Const          | Remark |
 | --------------------- | ------ |
 | HIGHAMOUNTALLABSOLUTE |
 | HIGHAMOUNTALLPERCENT  |
 
-### errorAllCodes
+### errorAllCodes (13)
 
 use `MAX_DAILY_VERIFY_PROMO_CODE`
 
