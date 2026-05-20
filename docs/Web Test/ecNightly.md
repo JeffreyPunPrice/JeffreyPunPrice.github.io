@@ -14,7 +14,7 @@ For Each run test
 | deliveryOption  | 4→1  | SELF_PICKUP is excluded only in Sanity/CI | [x] |
 | areaOption      | 3→1  | KOWLOON is excluded in sanity             | [x] |
 | receiverList    | 1    | `newReceiverDefault`                      |     |
-| codeListToFuncs | 131  |                                           |     |
+| codeListToFuncs | 87   |                                           |     |
 
 ### CodeListToFuncs
 
@@ -28,34 +28,34 @@ For Each run test
 
 #### sharedCodeListToFunc
 
-| CodeList                                           | size | verifyCC | verifyQR  | verifyP | qrTypes | contribute (WEB) |
-| -------------------------------------------------- | ---- | -------- | --------- | ------- | ------- | ---------------- |
-| noPromoCodes                                       | 1    | [x]      | [x]       | [ ]     | 5 / 4   | 1 + 5 = 6        |
-| cardOnlyCodes                                      | 2    | [x]      | [ ]       | [x]     | 1       | 2+1 = 3          |
-| alipayOnlyCodes                                    | 2    | [ ]      | [x]       | [x]     | 1       | 2+1 = 3          |
-| wechatOnlyCodes(disabled)                          | 2    | [ ]      | [x]       | [x]     | 1       | 0                |
-| paymeOnlyCodes                                     | 2    | [ ]      | [x]       | [x]     | 1       | 2+1 = 3          |
-| octopusOnlyCodes                                   | 2    | [ ]      | [x]       | [x]     | 1       | 2+1 = 3          |
-| merchantOnlyCodes                                  | 2    | [x]      | [x]       | [ ]     | 5 / 4   | 2+2×5 = 12       |
-| msiteOnlyCodes                                     | 2    | [x]      | [x]       | [x]     | 4       | 2+2×4 + 1= 11    |
-| webOnlyCodes                                       | 2    | [x]      | [x]       | [x]     | 5       | 2+2×5 + 1= 13    |
-| errorWebCodes                                      | 2    | [ ]      | [ ]       | [x]     |         | 1                |
-| errorMsiteCodes                                    | 2    | [ ]      | [ ]       | [x]     |         | 1                |
-| [errorMerchantCodes](dowEcN.md#errorMerchantCodes) | 16   | [ ]      | [ ]       | [x]     |         | 1                |
-| [wrongMerchantCodes](dowEcN.md#wrongMerchantCodes) | 20   | [ ]      | [ ]       | [x]     |         | 1                |
-| [wrongProductCodes](dowEcN#wrongProductCodes)      | 18   | [ ]      | [ ]       | [x]     |         | 1                |
-| [errorAllCodes](dowEcN#errorAllCodes)              | 14   | [ ]      | [ ]       | [x]     |         | 1                |
-| WEB Total                                          |      | 3×2+1=7  | 13×2+5=31 | 11      |         | 49               |
-| MSITE Total                                        |      | 3×2+1=7  | 11×2+4=26 | 11      |         | 44               |
+| CodeList                                           | size | verifyCC | verifyQR  | verifyP | qrTypes | Total(W)     |
+| -------------------------------------------------- | ---- | -------- | --------- | ------- | ------- | ------------ |
+| noPromoCodes                                       | 1    | [x]      | [x]       | [ ]     | 5 / 4   | 1+5 = 6      |
+| cardOnlyCodes                                      | 2    | [x]      | [ ]       | [x]     | 1       | 2+1 = 3      |
+| alipayOnlyCodes                                    | 2    | [ ]      | [x]       | [x]     | 1       | 2+1 = 3      |
+| wechatOnlyCodes(disabled)                          | 2    | [ ]      | [x]       | [x]     | 1       | 0            |
+| paymeOnlyCodes                                     | 2    | [ ]      | [x]       | [x]     | 1       | 2+1 = 3      |
+| octopusOnlyCodes                                   | 2    | [ ]      | [x]       | [x]     | 1       | 2+1 = 3      |
+| merchantOnlyCodes                                  | 2    | [x]      | [x]       | [ ]     | 5 / 4   | 2+2×5 = 12   |
+| msiteOnlyCodes                                     | 2    | [x]      | [x]       | [x]     | 4       | 2+2×4+1 = 11 |
+| webOnlyCodes                                       | 2    | [x]      | [x]       | [x]     | 5       | 2+2×5+1 = 13 |
+| errorWebCodes                                      | 2    | [ ]      | [ ]       | [x]     |         | 1            |
+| errorMsiteCodes                                    | 2    | [ ]      | [ ]       | [x]     |         | 1            |
+| [errorMerchantCodes](dowEcN.md#errorMerchantCodes) | 16   | [ ]      | [ ]       | [x]     |         | 1            |
+| [wrongMerchantCodes](dowEcN.md#wrongMerchantCodes) | 20   | [ ]      | [ ]       | [x]     |         | 1            |
+| [wrongProductCodes](dowEcN#wrongProductCodes)      | 18   | [ ]      | [ ]       | [x]     |         | 1            |
+| [errorAllCodes](dowEcN#errorAllCodes)              | 14   | [ ]      | [ ]       | [x]     |         | 1            |
+| WEB Total                                          |      | 3×2+1=7  | 13×2+5=31 | 11      |         | 49           |
+| MSITE Total                                        |      | 3×2+1=7  | 11×2+4=26 | 11      |         | 44           |
 
 #### memberCommonListToFunc
 
-| CodeList         | size | verifyCC | verifyQR     | qrTypes | contribute (WEB) | Remark  |
-| ---------------- | ---- | -------- | ------------ | ------- | ---------------- | ------- |
-| memberOnlyCodes  | 2    | [x]      | [x]          | 5 / 4   | 2 + 2×5 = 12     |         |
-| productOnlyCodes | 4    | [x]      | [x]          | 5 / 4   | 4 + 4×5 = 24     | only EC |
-| WEB Total        |      | 2+4 = 6  | 2×5+4×5 = 30 |         | 36               |         |
-| MSITE Total      |      | 2+4 = 6  | 2×4+4×4 = 24 |         | 30               |         |
+| CodeList         | size | verifyCC | verifyQR     | qrTypes | Total(W)   | Remark  |
+| ---------------- | ---- | -------- | ------------ | ------- | ---------- | ------- |
+| memberOnlyCodes  | 2    | [x]      | [x]          | 5 / 4   | 2+2×5 = 12 |         |
+| productOnlyCodes | 4    | [x]      | [x]          | 5 / 4   | 4+4×5 = 24 | only EC |
+| WEB Total        |      | 2+4 = 6  | 2×5+4×5 = 30 |         | 36         |         |
+| MSITE Total      |      | 2+4 = 6  | 2×4+4×4 = 24 |         | 30         |         |
 
 #### Other
 
