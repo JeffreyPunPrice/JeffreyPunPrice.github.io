@@ -1,7 +1,7 @@
 ---
 title: EC_NIGHTLY
 ---
-## Happy-member
+# Happy-member
 
 For Each run test
 
@@ -59,13 +59,32 @@ For Each run test
 
 #### Other
 
-| CodeList           | size                | verifyP | contribute |
-| ------------------ | ------------------- | ------- | ---------- |
-| errorMemberCodes   | dow(dow(8,5) + 2,5) | [x]     | 1          |
-| receiverLimitCodes | 2                   | [x]     | 1          |
+| CodeList           | size                | verifyP | contribute |     |
+| ------------------ | ------------------- | ------- | ---------- | --- |
+| errorMemberCodes   | dow(dow(8,5) + 2,5) | [x]     | 1          |     |
+| receiverLimitCodes | 2                   | [x]     | 1          |     |
 
 
-# Conclusion
+## Expect test count
+
+| Type              |         |     |
+| ----------------- | ------- | --- |
+| errorMemberOnly   | 2x2×2×1 |     |
+| receiverLimit     |         |     |
+| alipay            |         |     |
+| wechat            |         |     |
+| payme             |         |     |
+| octopus           |         |     |
+| webOnly           |         |     |
+| errorWebOnly      |         |     |
+| errorMerchantOnly |         |     |
+| wrongMerchant     |         |     |
+| wrongProduct      |         |     |
+| errorAll          |         |     |
+| errorMemberOnly   |         |     |
+| cardOnly          |         |     |
+
+## Conclusion
 
 Test cases for happy-member (Web)
 ```
@@ -88,3 +107,5 @@ productOnlyCodes(Only EC) = LangCodes(2) × ShopTypes = PS(1) × users (1) × ro
 Total = 608-80 = 528 (excluding skips) For Msite
 104 Verify P + 336 QrCode + 88 Verify CC
 ```
+
+# Happy-guest
